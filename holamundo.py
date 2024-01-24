@@ -1,3 +1,4 @@
-cars = ['Ford', 'BMW', 'Volvo']
-cars.sort()
-print (type(cars))
+age = 40
+name = "edwyn"
+ 
+print(type(name))
