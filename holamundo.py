@@ -1,4 +1,4 @@
 age = 40
 name = "edwyn"
  
-print(type(name))
+print(type(age)
