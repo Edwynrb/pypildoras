@@ -55,3 +55,24 @@ print(with_step_two)
 # remove the dashes from the format
 phone_number = "4-5-6-3-2-4-7-9"
 print(phone_number[::2])
+
+# create list with four element and print firts position
+List = [1,2,3,4]
+print(List[0])
+
+# add an element to the list
+new_element = List.append(5)
+print(List)
+
+# create studends list with names Edward, Carlos and Maria add Pepe 
+list_students = ["Edward", "Carlos", "Maria"]
+new_student = list_students.append("Pepe")
+print(list_students)
+
+# Concept of tuples in python, create tuple with this values, 1, False, "Edward", 0.145 and print four value
+my_tuple = (1, False, "Edward", 0.145)
+print(my_tuple[3])
+
+
+
+
