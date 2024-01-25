@@ -1,4 +1,9 @@
 age = 40
 name = "edwyn"
  
-print(type(age)
+print (id(age))
+
+# boolean data
+is_mayor_age= True
+is_sunday = False
+print (int(is_sunday))
