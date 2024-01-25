@@ -22,7 +22,9 @@ in this situation I work in the enterprise of ice
 good code
 
 """
+
 print(name_one, name_two, text)
+# How to determine the size of a string, variable name_one
 print(len(name_one))
 
 # prefix and subfix
@@ -48,3 +50,8 @@ my_string = " Python is awesome"
 # Access characters with a step of 2
 with_step_two = my_string[::2]
 print(with_step_two)
+
+
+# remove the dashes from the format
+phone_number = "4-5-6-3-2-4-7-9"
+print(phone_number[::2])
