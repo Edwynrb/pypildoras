@@ -31,3 +31,10 @@ product_one = "0001 - apple"
 product_two = "apple - 0001"
 print(product_one.removeprefix("0001 - "))
 print(product_two.removesuffix("- 0001"))
+
+# indexing and slicing 
+# problem in this case print first letter of the string Hi, world with indexing
+String = "Hi, world"
+print(String[1])
+# problem I need extract last character of the string 
+print(String[-1])
