@@ -42,3 +42,9 @@ print(String[-1])
 print(String[0:5])
 # I want to slicing that print prase world of my variable String
 print(String[4:])
+# Define a string
+my_string = " Python is awesome"
+
+# Access characters with a step of 2
+with_step_two = my_string[::2]
+print(with_step_two)
