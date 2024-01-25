@@ -38,3 +38,7 @@ String = "Hi, world"
 print(String[1])
 # problem I need extract last character of the string 
 print(String[-1])
+# I want to extract first five character of my string.
+print(String[0:5])
+# I want to slicing that print prase world of my variable String
+print(String[4:])
